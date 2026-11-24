@@ -1,21 +1,21 @@
 cff-version: 1.2.0
-message: "To cite this English short public edition, use the following reference."
-title: "Interactive Worlds — public technical dossier (English short edition)"
+message: "To cite this full English public edition, use the following reference."
+title: "Causal Worlds Engine — public technical dossier (English edition)"
 type: report
 version: "1.1-en"
 date-released: 2026-11-24
 authors:
   - name: "Gaaboy"
 abstract: >-
-  English short edition and executive summary presenting the high-level
-  architecture, product direction, selected internal results, and observed
-  limitations of a proprietary causal-world runtime project. The complete
-  technical dossier is currently available in French; this is not a full
-  English translation. No engine source code, implementation recipes,
+  Full English translation of the public technical dossier, with the short
+  edition and executive summary, describing the architecture, product direction,
+  internal results, and observed limitations of a proprietary causal-world
+  runtime project. No engine source code, implementation recipes, internal
   configurations, or raw data are included.
 keywords:
+  - causal worlds
   - interactive worlds
   - simulation
   - complex systems
   - causal modeling
-  - proprietary software
+language: eng
