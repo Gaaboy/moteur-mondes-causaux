@@ -1,5 +1,7 @@
 # Moteur de mondes causaux — dossier technique public
 
+[Read this repository overview in English](README_EN.md).
+
 Documentation publique d’un projet propriétaire de mondes interactifs (**v1.1 — 24 novembre 2026**).
 
 **Édition v1.1 · 24 novembre 2026**
