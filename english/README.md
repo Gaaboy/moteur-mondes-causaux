@@ -8,6 +8,7 @@ This package contains the complete English translation of the public technical d
 
 - [Read the full dossier (HTML)](Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.html)
 - [Read the full dossier (Markdown)](Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.md)
+- [Download the complete dossier (PDF)](Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.pdf)
 
 ## Short English materials
 
