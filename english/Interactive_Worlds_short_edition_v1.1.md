@@ -2,7 +2,7 @@
 
 **Public edition v1.1 · 24 November 2026**
 
-**Language:** English · [Lire en français](Presentation_mondes_interactifs_lite_v1.1.md) · [Home](index_en.html)
+**Language:** English · [Lire en français](../Presentation_mondes_interactifs_lite_v1.1.md) · [Home](../index_en.html)
 
 > **In 30 seconds** — A proprietary project for interactive worlds that people can create, inhabit, and observe. The engine and implementation recipes remain private. This repository contains public documentation, presentation diagrams, and high-level results only. It includes no source code, configuration, or raw data.
 
