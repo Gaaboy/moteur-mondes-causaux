@@ -3,10 +3,10 @@
   "upload_type": "publication",
   "publication_type": "report",
   "publication_date": "2026-11-24",
-  "version": "1.1",
+  "version": "1.1.2",
   "description": "Dossier technique public présentant l’architecture générale, les domaines couplés, les campagnes d’essais, les mesures observées et les limites d’un projet propriétaire de moteur de mondes causaux. Le moteur, son code source, ses recettes d’implémentation, ses configurations et ses données brutes ne sont pas inclus.",
   "creators": [{"name": "Gaaboy"}],
   "keywords": ["simulation", "systèmes complexes", "modélisation multi-domaines", "runtime causal", "dossier technique"],
   "language": "fra",
-  "notes": "Documentation propriétaire. Tous droits réservés. Aucune licence open source n’est accordée."
+  "notes": "Édition française uniquement. L’édition anglaise est publiée dans un dépôt séparé. Documentation propriétaire. Tous droits réservés. Aucune licence open source n’est accordée."
 }
