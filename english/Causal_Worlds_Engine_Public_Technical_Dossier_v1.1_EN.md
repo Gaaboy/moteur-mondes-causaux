@@ -129,7 +129,7 @@ These contracts make connections easier to inspect and control; they do not, by 
 
 ### 3.4 Saves, interventions, and replay
 
-An state save preserves a starting point from which an experiment can be resumed under controlled conditions. Branches can share an initial history and then diverge because a mechanism, relation, or condition is changed. Replay comparisons are interpretable under the conditions actually preserved—engine version, state, inputs, randomness, and execution order—and do not guarantee equivalence across versions or identical repetition of every external module. If a difference appears later, it is evidence about the contribution of the change; it shows only what the test scenario isolated.
+A saved state preserves a starting point from which an experiment can be resumed under controlled conditions. Branches can share an initial history and then diverge because a mechanism, relation, or condition is changed. Replay comparisons are interpretable under the conditions actually preserved—engine version, state, inputs, randomness, and execution order—and do not guarantee equivalence across versions or identical repetition of every external module. If a difference appears later, it is evidence about the contribution of the change; it shows only what the test scenario isolated.
 
 This organization enables several forms of inquiry: checking that a mechanism meets a local contract; observing whether a connection between two domains actually transmits an effect; comparing control and perturbed branches; and tracking whether a local effect persists as it passes through an organism or collective. Resuming a state can support comparison, but does not guarantee cross-version scope or equivalence to a real phenomenon. The system thus distinguishes coherent execution of an experiment from the technical scope of its interpretation.
 
@@ -838,6 +838,8 @@ This dossier therefore provides a substantial overview of the program without pu
 **Gaaboy** — author and project creator.
 
 - **GitHub:** <https://github.com/Gaaboy>
-- **Zenodo:** DOI for this English edition to be inserted after the Zenodo draft has reserved it and before publication.
+- **Zenodo:** A separate archive for this English edition is pending publication.
 - **X:** <https://x.com/Gaaboy35>
+
+
 
