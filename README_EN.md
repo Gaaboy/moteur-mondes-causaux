@@ -14,6 +14,10 @@ The project focuses on an experimental loop: connect specialized mechanisms insi
 
 The runtime organizes components through access and timing contracts. A static inventory covers 44 phases and 71 components: 49 are classified as reference-step updates, 17 as elapsed-time updates, and 5 as mixed. The dossier describes the current scope and limitations without claiming automatic integration of arbitrary external models or general validation of the framework.
 
+## English publication package
+
+The versioned package with its documents and original diagrams is in [`english/`](english/README.md).
+
 ## Read in English
 
 - [Short edition (HTML)](Interactive_Worlds_short_edition_v1.1.html) · [Markdown](Interactive_Worlds_short_edition_v1.1.md) · [PDF](Interactive_Worlds_short_edition_v1.1.pdf)
