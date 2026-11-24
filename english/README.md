@@ -27,4 +27,4 @@ Copyright © 2026 Gaaboy. All rights reserved. Public documentation only. No ope
 - [Zenodo metadata](.zenodo.json)
 - [Rights notice](RIGHTS.md)
 
-Zenodo record: pending publication.
+Zenodo record: [10.5281/zenodo.24513602](https://doi.org/10.5281/zenodo.24513602).
