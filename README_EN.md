@@ -39,4 +39,4 @@ The engine, source code, and implementation recipes remain private. This reposit
 
 ## Citation
 
-The French v1.1 edition is archived at [Zenodo DOI 10.5281/zenodo.24512315](https://doi.org/10.5281/zenodo.24512315). The full English edition is being archived as a separate Zenodo record.
+The French v1.1 edition is archived at [Zenodo DOI 10.5281/zenodo.24512315](https://doi.org/10.5281/zenodo.24512315). The full English edition is archived separately on [Zenodo (DOI 10.5281/zenodo.24513602)](https://doi.org/10.5281/zenodo.24513602).
