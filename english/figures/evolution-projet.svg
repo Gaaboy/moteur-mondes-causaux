@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="780" viewBox="0 0 1280 780" role="img" aria-labelledby="title desc">
+  <title id="title">Chronologie documentaire de Projet de mondes interactifs</title>
+  <desc id="desc">Une chronologie conceptuelle présente les fondations théoriques, les prototypes, les assemblages multi-domaines, la consolidation du socle et les campagnes d'intégration.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#287c83"/>
+    </marker>
+    <style>
+      .bg { fill: #f7f9fb; }
+      .title { font: 700 29px Arial, sans-serif; fill: #17324d; }
+      .date { font: 700 17px Arial, sans-serif; fill: #17324d; }
+      .head { font: 700 16px Arial, sans-serif; fill: #17324d; }
+      .body { font: 14px Arial, sans-serif; fill: #395268; }
+      .note { font: 13px Arial, sans-serif; fill: #53687a; }
+      .archive { fill: #fff7e8; stroke: #d8b46b; stroke-width: 2; rx: 12; }
+      .proto { fill: #edf1f8; stroke: #52709a; stroke-width: 2; rx: 12; }
+      .canon { fill: #e7f3f2; stroke: #287c83; stroke-width: 3; rx: 12; }
+      .line { stroke: #287c83; stroke-width: 4; marker-end: url(#arrow); }
+      .dot { fill: #287c83; }
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="780"/>
+  <text class="title" x="48" y="52">Étapes de maturation de Projet</text>
+  <text class="note" x="48" y="80">Une trajectoire intellectuelle et logicielle; chaque étape ne signifie pas que tous les mécanismes antérieurs restent actifs.</text>
+  <line class="line" x1="100" y1="140" x2="100" y2="685"/>
+
+  <circle class="dot" cx="100" cy="158" r="9"/>
+  <rect class="archive" x="145" y="112" width="1060" height="90"/>
+  <text class="date" x="175" y="145">Fondations conceptuelles</text>
+  <text class="body" x="175" y="172">Une ambition de décrire causalité, organisation et interactions entre systèmes distincts.</text>
+  <text class="body" x="175" y="192">Les archives anciennes donnent un contexte, sans établir une continuité du moteur.</text>
+
+  <circle class="dot" cx="100" cy="257" r="9"/>
+  <rect class="proto" x="145" y="216" width="1060" height="82"/>
+  <text class="date" x="175" y="248">Prototypes et mécanismes</text>
+  <text class="body" x="175" y="276">Les idées prennent forme dans des composants autour du monde, du corps, des ressources et de l’observation.</text>
+
+  <circle class="dot" cx="100" cy="355" r="9"/>
+  <rect class="proto" x="145" y="312" width="1060" height="88"/>
+  <text class="date" x="175" y="344">Assemblages multi-domaines</text>
+  <text class="body" x="175" y="372">Des tentatives de relier plusieurs systèmes mettent en évidence les problèmes d’interfaces,</text>
+  <text class="body" x="175" y="392">de temporalités, d’unités et de continuité entre mécanismes.</text>
+
+  <circle class="dot" cx="100" cy="458" r="9"/>
+  <rect class="proto" x="145" y="414" width="1060" height="90"/>
+  <text class="date" x="175" y="446">Consolidation du socle commun</text>
+  <text class="body" x="175" y="474">Un noyau d’exécution sélectionné organise états, transitions, événements et sauvegardes</text>
+  <text class="body" x="175" y="494">autour d’un monde partagé, sans faire de chaque prototype une capacité actuelle.</text>
+
+  <circle class="dot" cx="100" cy="565" r="9"/>
+  <rect class="canon" x="145" y="520" width="1060" height="92"/>
+  <text class="date" x="175" y="552">Campagnes intégratrices et calibration</text>
+  <text class="body" x="175" y="580">Des expériences suivent des chaînes plus longues, comparent des branches et évaluent certains</text>
+  <text class="body" x="175" y="600">mécanismes, tout en conservant les résultats négatifs et les questions ouvertes.</text>
+
+  <circle class="dot" cx="100" cy="673" r="9"/>
+  <rect class="canon" x="145" y="628" width="1060" height="95"/>
+  <text class="date" x="175" y="660">Projet de mondes interactifs · programme de maturation</text>
+  <text class="body" x="175" y="688">L’objectif est de renforcer les raccords mesurables entre domaines, échelles et formes</text>
+  <text class="body" x="175" y="709">d’organisation, en distinguant capacités réalisées et possibilités futures.</text>
+</svg>
