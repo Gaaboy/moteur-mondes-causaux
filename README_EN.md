@@ -6,7 +6,7 @@ A solo project developed since August 2024, from theoretical grammar to an exper
 
 **Author and project creator: Gaaboy.**
 
-> **In 30 seconds** — The project combines a states–relations–dynamics framework, an experimental multi-domain causal runtime, traceability tools, and interfaces for creating and observing worlds. The full technical dossier is currently in French. The English materials are a short edition and executive summary, not a complete translation. No engine source code, implementation recipes, internal configuration, or raw data is distributed.
+> **In 30 seconds** — The project combines a states–relations–dynamics framework, an experimental multi-domain causal runtime, traceability tools, and interfaces for creating and observing worlds. The complete technical dossier is now available in English in the [English publication package](english/README.md), with Markdown and HTML editions, the short edition, executive summary, diagrams, rights notice, and publication metadata. No engine source code, implementation recipes, internal configuration, or raw data is distributed.
 
 ## What the project contributes
 
@@ -25,7 +25,7 @@ The versioned package with its documents and original diagrams is in [`english/`
 - [English landing page](index_en.html)
 - [English citation metadata](CITATION_EN.cff) · [Zenodo metadata](ZENODO_ENGLISH_METADATA.json) · [Rights](RIGHTS_EN.md)
 
-The complete technical dossier is currently available in French: [Markdown](Presentation_mondes_interactifs_v1.1.md) · [HTML](Presentation_mondes_interactifs_v1.1.html) · [PDF](Presentation_mondes_interactifs_v1.1.pdf).
+The complete French dossier remains available: [Markdown](Presentation_mondes_interactifs_v1.1.md) · [HTML](Presentation_mondes_interactifs_v1.1.html) · [PDF](Presentation_mondes_interactifs_v1.1.pdf).
 
 ## Observed results
 
@@ -39,4 +39,4 @@ The engine, source code, and implementation recipes remain private. This reposit
 
 ## Citation
 
-The French v1.1 edition is archived at [Zenodo DOI 10.5281/zenodo.24512315](https://doi.org/10.5281/zenodo.24512315). The English edition is the public short edition; a separate Zenodo record has not yet been published.
+The French v1.1 edition is archived at [Zenodo DOI 10.5281/zenodo.24512315](https://doi.org/10.5281/zenodo.24512315). The full English edition is being archived as a separate Zenodo record.
