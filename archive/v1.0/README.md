@@ -1,3 +1,3 @@
-# Archive — public edition v1.0
+# Archive — édition publique française v1.0
 
-These PDF files are retained as the previous edition for reference. They do not include the v1.1 runtime and temporal-contract update. Use the v1.1 Markdown and HTML files in the package root for the current public text.
+Ces fichiers PDF français sont conservés comme édition précédente. Ils ne comprennent pas les mises à jour du runtime et des contrats temporels de v1.1. L’édition anglaise est maintenue séparément dans [son dépôt dédié](https://github.com/Gaaboy/causal-worlds-engine-public).
