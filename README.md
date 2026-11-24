@@ -2,9 +2,9 @@
 
 [English edition — separate repository](https://github.com/Gaaboy/causal-worlds-engine-public).
 
-Documentation publique d’un projet propriétaire de mondes interactifs (**v1.1 — 24 novembre 2026**).
+Documentation publique d’un projet propriétaire de mondes interactifs (dossier **v1.1**, complété par une note de portée **v1.1.3** · 24 novembre 2026).
 
-**Édition v1.1 · 24 novembre 2026**
+**Dossier v1.1 · note complémentaire v1.1.3 · 24 novembre 2026**
 Projet mené en solo depuis aout 2024, de la grammaire théorique au runtime expérimental. Développé en vibe coding sur une machine équipée de 8 Go de RAM. Le moteur et ses recettes restent privés. Ce dépôt présente uniquement l’architecture, les résultats de haut niveau et les limites observées.
 
 **Auteur et créateur du projet : Gaaboy.**
@@ -14,7 +14,7 @@ Projet mené en solo depuis aout 2024, de la grammaire théorique au runtime exp
 
 ## Ce que le projet apporte
 
-Le projet met l’accent sur une boucle expérimentale précise : raccorder des mécanismes spécialisés à un monde commun, suivre les causes consignées qui relient leurs changements, puis reprendre et comparer des branches pour examiner l’effet d’un mécanisme sur la suite. Cela donne un cadre concret pour étudier des chaînes comme mémoire → décision → déplacement → ressource, au-delà d’une simple juxtaposition de modules.
+Le projet met l’accent sur une boucle expérimentale précise : raccorder des mécanismes spécialisés à un monde commun, suivre la provenance causale déclarée de leurs changements, puis reprendre et comparer des branches pour examiner si une intervention modifie une conséquence ultérieure. Cela donne un cadre concret pour étudier des chaînes comme mémoire → décision → déplacement → ressource, au-delà d’une simple juxtaposition de modules. Un lien d’événement aide à retracer ce que le système consigne; l’attribution causale repose sur les comparaisons et interventions propres au scénario.
 
 Le runtime encadre ses composants par des contrats d’accès et de temps. L’inventaire statique couvre 44 phases et 71 composants : 49 sont classés par pas de référence, 17 par temps écoulé et 5 en régime mixte. Parmi les 32 qui ne reçoivent pas directement `dt`, 2 restent sans dt direct : une projection anatomique à retour différé et une étape de fabrication discrète, qui ne sont pas des taux directs. Trois mécanismes ont maintenant une mise à l’échelle temporelle, selon des hypothèses de taux encore non calibrées; l’un conserve une division discrète à seuil. Le classement organise leur exécution sans prétendre que toutes les cadences ou unités sont déjà harmonisées.
 
@@ -27,7 +27,10 @@ La portée actuelle reste celle des mécanismes et scénarios intégrés et qual
 - [Dossier technique complet](Presentation_mondes_interactifs_v1.1.md)
 - [Dossier complet en HTML](Presentation_mondes_interactifs_v1.1.html)
 - [Télécharger le dossier complet en PDF](Presentation_mondes_interactifs_v1.1.pdf)
+- [Portée des résultats et priorités de maturation](RESULTS_SCOPE_AND_PRIORITIES.html) · [Markdown](RESULTS_SCOPE_AND_PRIORITIES.md)
 - [Page d’accueil visuelle](index.html)
+- [Note de portée et de priorités](RESULTS_SCOPE_AND_PRIORITIES.html) · [Markdown](RESULTS_SCOPE_AND_PRIORITIES.md)
+- [Notes de publication v1.1.3](RELEASE_NOTES_v1.1.3.md)
 - `figures/` — schémas explicatifs du cadre et de ses boucles.
 
 Le dossier technique complet en anglais est publié séparément dans [son propre dépôt GitHub](https://github.com/Gaaboy/causal-worlds-engine-public). Les éditions française et anglaise sont ainsi maintenues dans deux dépôts distincts.
@@ -41,6 +44,8 @@ Les PDF conservés dans `archive/v1.0/` appartiennent à l’édition précéden
 Le dossier décrit la répartition des cadences, les trois mécanismes qui reçoivent une mise à l’échelle par temps écoulé, ainsi que les opérations qui restent discrètes ou à retour différé. La suite ciblée de subdivision, de seuils et de reprise passe **14/14 tests**. Elle qualifie des cas précis : absorption sans division, cible constante pour la cohésion, dynamiques organisationnelles sous support constant et reprise déterministe au pas testé. Les divisions protocellulaires n’ont pas été comparées sous toutes les partitions; les cibles variables, les transitions de support et les coefficients restent à qualifier. Les taux ne sont pas calibrés et aucune synchronisation physique universelle n’est revendiquée.
 
 Le projet ne se résume pas à cette mesure d’endurance. Le dossier décrit les mécanismes, les campagnes intégrées, les calibrations de domaine, les résultats négatifs et les outils de création et d’observation. Il rapporte notamment une boucle mémoire–trajet–irrigation reproduite dans plusieurs initialisations, des comparaisons de branches collectives, des vérifications ciblées de physique, d’hydrologie, de locomotion, d’optique et de coordination, ainsi qu’un post-mortem de subsistance.
+
+La note [Portée des résultats et priorités de maturation](RESULTS_SCOPE_AND_PRIORITIES.md) synthétise les cinq frontières de lecture — temps, attribution causale, endurance, reproductibilité et généralisation — et les ordonne selon leur lien avec la proposition centrale. Elles encadrent les affirmations; elles ne remplacent pas la description des mécanismes, des campagnes et des fonctions produit.
 
 Une campagne intégrée d’environ deux heures a atteint près de **3,8 Go de mémoire vive** et dépassé **un million d’événements** dans la branche la plus instrumentée. Ces chiffres décrivent ce scénario et sa journalisation, pas un plafond de capacité. Un autre relevé d’endurance couvre **47,99 heures**, avec **2 873 mesures** : le tick est passé de **809 à 1 225** (**416 ticks nets**) sous surveillance, et la mémoire résidente a varié de **0,87 à 1,32 Gio**. La mémoire privée a atteint **1,77 Gio**. Le processus était signalé actif à tous les échantillons, mais aucun tick n’a avancé durant les **9 dernières minutes** de la fenêtre mesurée. La trace distincte contient des instantanés agrégés jusqu’au tick **1 274**, sans horodatage permettant de les aligner sur le moniteur. La fenêtre surveillée s’arrête environ **50 secondes avant 48 heures** : elle s’en approche, sans franchir formellement ce seuil. Ce n’est pas un audit tiers.
 
@@ -66,3 +71,4 @@ Les métadonnées de citation sont préparées dans [`CITATION.cff`](CITATION.cf
 et [`.zenodo.json`](.zenodo.json). Les consignes pour préparer un dépôt Zenodo
 se trouvent dans [`ZENODO_RELEASE_CHECKLIST.md`](ZENODO_RELEASE_CHECKLIST.md).
 DOI conceptuel de l’archive française (toutes versions) : https://doi.org/10.5281/zenodo.24512314
+
