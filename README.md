@@ -65,4 +65,4 @@ Les campagnes de tests qui se recouvrent ne sont pas additionnées en un total g
 Les métadonnées de citation sont préparées dans [`CITATION.cff`](CITATION.cff)
 et [`.zenodo.json`](.zenodo.json). Les consignes pour préparer un dépôt Zenodo
 se trouvent dans [`ZENODO_RELEASE_CHECKLIST.md`](ZENODO_RELEASE_CHECKLIST.md).
-Cette édition n’a pas encore de DOI.
+DOI de cette édition : https://doi.org/10.5281/zenodo.24512315
