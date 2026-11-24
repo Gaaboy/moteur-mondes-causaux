@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 850" role="img" aria-labelledby="title desc">
+  <title id="title">Carte du moteur causal multi-domaines</title>
+  <desc id="desc">Le cadre états, relations et dynamiques alimente un monde causal partagé; des domaines spécialisés le modifient, tandis que le journal, les checkpoints, les rejeux et les interventions rendent les trajectoires comparables. Les outils produit donnent accès au monde sans remplacer son état canonique.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#527d83"/></marker>
+    <marker id="arrowGold" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#b98248"/></marker>
+    <style>
+      .bg{fill:#f3f6f4}.title{font:700 29px Arial,sans-serif;fill:#17384a}.sub{font:16px Arial,sans-serif;fill:#536a70}
+      .head{font:700 18px Arial,sans-serif;fill:#17384a}.body{font:15px Arial,sans-serif;fill:#40565d}.small{font:13px Arial,sans-serif;fill:#61757a}
+      .card{fill:#fff;stroke:#cbd9d8;stroke-width:1.5}.blue{fill:#e4eff0;stroke:#93b5b7}.sand{fill:#f7eddd;stroke:#d9bc8f}.green{fill:#e8efe5;stroke:#afc2a9}.dark{fill:#173e52;stroke:#173e52}.white{fill:#f7f7ef}
+      .line{stroke:#527d83;stroke-width:2.3;fill:none;marker-end:url(#arrow)}.goldline{stroke:#b98248;stroke-width:2.3;fill:none;marker-end:url(#arrowGold)}
+      .dash{stroke:#98aaab;stroke-width:1.5;stroke-dasharray:7 6;fill:none}
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="850" rx="22"/>
+  <text class="title" x="52" y="58">Un moteur causal, plusieurs domaines, des trajectoires comparables</text>
+  <text class="sub" x="52" y="88">Cadre théorique → monde exécutable → observations → interventions et rejeu</text>
+
+  <rect class="card sand" x="52" y="120" width="1096" height="142" rx="18"/>
+  <text class="head" x="78" y="151">Cadre de description et de recherche</text>
+  <rect class="card" x="78" y="172" width="280" height="62" rx="12"/>
+  <text class="head" x="98" y="198">φ · États portés</text><text class="small" x="98" y="220">stocks, positions, mémoire, capacités</text>
+  <rect class="card" x="460" y="172" width="280" height="62" rx="12"/>
+  <text class="head" x="480" y="198">λ · Relations</text><text class="small" x="480" y="220">accès, contraintes, transferts, liens</text>
+  <rect class="card" x="842" y="172" width="280" height="62" rx="12"/>
+  <text class="head" x="862" y="198">χ · Dynamiques</text><text class="small" x="862" y="220">transitions, rythmes, règles d’évolution</text>
+  <path class="line" d="M358 203H450"/><path class="line" d="M740 203H832"/>
+  <path class="goldline" d="M982 242C920 276 272 276 218 242"/>
+  <text class="small" x="488" y="254">événements, temporalité, mémoire et rétroactions font dépendre le présent de l’histoire</text>
+
+  <path class="line" d="M600 263V304"/>
+  <rect class="card dark" x="220" y="310" width="760" height="105" rx="18"/>
+  <text class="head white" x="600" y="348" text-anchor="middle">Monde causal partagé</text>
+  <text class="body white" x="600" y="377" text-anchor="middle">état canonique · ordonnanceur à phases ordonnées · cadence globale actuelle</text>
+  <text class="small white" x="600" y="400" text-anchor="middle">les domaines restent distincts; tous ne sont pas actifs dans chaque scénario</text>
+
+  <path class="line" d="M600 415V446"/>
+  <rect class="card green" x="52" y="452" width="1096" height="174" rx="18"/>
+  <text class="head" x="78" y="484">Domaines spécialisés raccordés selon les conditions du scénario</text>
+  <rect class="card" x="78" y="504" width="195" height="86" rx="12"/>
+  <text class="head" x="175" y="535" text-anchor="middle">Physique &amp; espace</text><text class="small" x="175" y="560" text-anchor="middle">mouvement, contact, lumière</text>
+  <rect class="card" x="294" y="504" width="195" height="86" rx="12"/>
+  <text class="head" x="391" y="535" text-anchor="middle">Matière &amp; eau</text><text class="small" x="391" y="560" text-anchor="middle">stocks, accès, transferts</text>
+  <rect class="card" x="510" y="504" width="195" height="86" rx="12"/>
+  <text class="head" x="607" y="535" text-anchor="middle">Chimie &amp; corps</text><text class="small" x="607" y="560" text-anchor="middle">réactions, besoins, vitalité</text>
+  <rect class="card" x="726" y="504" width="195" height="86" rx="12"/>
+  <text class="head" x="823" y="535" text-anchor="middle">Perception &amp; mémoire</text><text class="small" x="823" y="560" text-anchor="middle">attention, choix, apprentissage</text>
+  <rect class="card" x="942" y="504" width="180" height="86" rx="12"/>
+  <text class="head" x="1032" y="535" text-anchor="middle">Écologie &amp; groupes</text><text class="small" x="1032" y="560" text-anchor="middle">ressources, rôles, maintien</text>
+
+  <path class="line" d="M600 626V653"/>
+  <rect class="card blue" x="52" y="659" width="1096" height="112" rx="18"/>
+  <text class="head" x="78" y="691">Instrumentation causale</text>
+  <text class="body" x="80" y="722">ID d’événement &amp; causes déclarées</text>
+  <text class="body" x="357" y="722">checkpoints versionnés &amp; reprise</text>
+  <text class="body" x="672" y="722">témoin, ablation &amp; comparaison</text>
+  <text class="body" x="945" y="722">observables &amp; post-mortem</text>
+  <text class="small" x="78" y="751">La cohérence du journal et le rejeu sont vérifiés sur les champs testés; ils ne prouvent pas une validité universelle du modèle.</text>
+
+  <path class="goldline" d="M600 771V798"/>
+  <text class="head" x="600" y="827" text-anchor="middle">Surfaces produit : créer · habiter · observer · modifier — en cours d’intégration durable</text>
+</svg>
