@@ -1,22 +1,30 @@
-# Interactive Worlds — English public edition
+# Causal Worlds Engine — full English public edition
 
-**English short edition · v1.1 · 24 November 2026**
+**Public technical dossier · Edition 1.1 · English · 24 November 2026**
 
-This is the English-language publication package for the project. It includes the short edition, executive summary, original explanatory diagrams, citation and rights metadata, and Zenodo metadata. Matching PDFs remain in the repository root and are linked below.
+This package contains the complete English translation of the public technical dossier, the English short edition and executive summary, translated explanatory diagrams, and publication metadata.
 
-The complete technical dossier is currently available in French. This English package is a short edition and executive summary; it is not presented as a complete translation.
+## Full technical dossier
 
-## Documents
+- [Read the full dossier (HTML)](Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.html)
+- [Read the full dossier (Markdown)](Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.md)
 
-- [Short edition — Markdown](Interactive_Worlds_short_edition_v1.1.md) · [HTML](Interactive_Worlds_short_edition_v1.1.html) · [PDF](../Interactive_Worlds_short_edition_v1.1.pdf)
-- [Executive summary — Markdown](Executive_summary_EN.md) · [HTML](Executive_summary_EN.html) · [PDF](../Executive_summary_EN.pdf)
-- [Project landing page in English](../index_en.html)
-- [Complete French dossier — Markdown](../Presentation_mondes_interactifs_v1.1.md) · [HTML](../Presentation_mondes_interactifs_v1.1.html) · [PDF](../Presentation_mondes_interactifs_v1.1.pdf)
+## Short English materials
 
-## Metadata and rights
+- [Short edition (HTML)](Interactive_Worlds_short_edition_v1.1.html) · [Markdown](Interactive_Worlds_short_edition_v1.1.md) · [PDF](../Interactive_Worlds_short_edition_v1.1.pdf)
+- [Executive summary (HTML)](Executive_summary_EN.html) · [Markdown](Executive_summary_EN.md) · [PDF](../Executive_summary_EN.pdf)
+- [English landing page](../index_en.html)
 
-- [Citation record](CITATION.cff)
+## Scope and rights
+
+The engine and implementation recipes remain private. This public documentation includes no source code, exact run seeds, internal configurations or commands, raw traces, execution saves, personal data, or internal paths. Results are presented with their conditions and limitations; the dossier does not claim independent validation of the entire system.
+
+Copyright © 2026 Gaaboy. All rights reserved. Public documentation only. No open-source license is granted for the engine, source code, or implementation recipes.
+
+## Publication metadata
+
+- [Citation metadata](CITATION.cff)
 - [Zenodo metadata](.zenodo.json)
 - [Rights notice](RIGHTS.md)
 
-Copyright © 2026 Gaaboy. All rights reserved. Public documentation only. The engine and implementation recipes remain private. No open-source license is granted for the engine, source code, or implementation recipes.
+Zenodo record: pending publication.
