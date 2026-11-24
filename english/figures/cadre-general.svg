@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650" role="img" aria-labelledby="title desc">
+  <title id="title">Cadre opérationnel états relations dynamiques</title>
+  <desc id="desc">Les états phi sont reliés par des relations lambda; les transitions chi modifient ces états et leurs résultats observables peuvent rétroagir.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#287c83"/>
+    </marker>
+    <style>
+      .bg { fill: #f7f9fb; }
+      .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+      .label { font: 700 25px Arial, sans-serif; fill: #17324d; }
+      .small { font: 16px Arial, sans-serif; fill: #395268; }
+      .note { font: 14px Arial, sans-serif; fill: #53687a; }
+      .state { fill: #eaf0f8; stroke: #52709a; stroke-width: 3; rx: 20; }
+      .relation { fill: #e7f3f2; stroke: #287c83; stroke-width: 3; rx: 20; }
+      .dynamics { fill: #fff1df; stroke: #c17b2d; stroke-width: 3; rx: 20; }
+      .arrow { fill: none; stroke: #287c83; stroke-width: 4; marker-end: url(#arrow); }
+      .loop { fill: none; stroke: #78909f; stroke-width: 3; stroke-dasharray: 10 8; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="650"/>
+  <text class="title" x="48" y="58">φ–λ–χ : une grammaire d’ingénierie des transitions</text>
+
+  <rect class="state" x="65" y="170" width="310" height="220"/>
+  <text class="label" x="100" y="220">φ · États portés</text>
+  <text class="small" x="100" y="263">stocks · positions · capacités</text>
+  <text class="small" x="100" y="293">états physiologiques · mémoire</text>
+  <text class="small" x="100" y="323">variables avec unités et propriétaire</text>
+  <text class="small" x="100" y="357">ce que le monde porte à un instant</text>
+
+  <path class="arrow" d="M375 280 H490"/>
+  <rect class="relation" x="505" y="170" width="310" height="220"/>
+  <text class="label" x="540" y="220">λ · Relations</text>
+  <text class="small" x="540" y="263">accès · transfert · contrainte</text>
+  <text class="small" x="540" y="293">producteur et consommateur</text>
+  <text class="small" x="540" y="323">conditions et provenance déclarées</text>
+  <text class="small" x="540" y="357">ce qui autorise une influence</text>
+
+  <path class="arrow" d="M815 280 H930"/>
+  <rect class="dynamics" x="945" y="170" width="270" height="220"/>
+  <text class="label" x="980" y="220">χ · Dynamiques</text>
+  <text class="small" x="980" y="263">lois · règles · transitions</text>
+  <text class="small" x="980" y="293">paramètres et cadence explicites</text>
+  <text class="small" x="980" y="323">résultats et événements observables</text>
+  <text class="small" x="980" y="357">ce qui transforme les états</text>
+
+  <path class="loop" d="M1080 390 C1080 520 230 520 220 395"/>
+  <text class="note" x="430" y="495">Les transitions produisent de nouveaux états; la rétroaction doit être identifiée et testée.</text>
+
+  <rect x="110" y="555" width="1060" height="54" fill="#fff7e8" stroke="#d8b46b" stroke-width="2" rx="12"/>
+  <text class="note" x="140" y="588">Le cadre organise le code et les protocoles; il ne remplace ni les équations propres aux domaines ni leur mise au point.</text>
+</svg>
