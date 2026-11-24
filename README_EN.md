@@ -6,7 +6,7 @@ A solo project developed since August 2024, from theoretical grammar to an exper
 
 **Author and project creator: Gaaboy.**
 
-> **In 30 seconds** — The project combines a states–relations–dynamics framework, an experimental multi-domain causal runtime, traceability tools, and interfaces for creating and observing worlds. The complete technical dossier is now available in English in the [English publication package](english/README.md), with Markdown and HTML editions, the short edition, executive summary, diagrams, rights notice, and publication metadata. No engine source code, implementation recipes, internal configuration, or raw data is distributed.
+> **In 30 seconds** — The project combines a states–relations–dynamics framework, an experimental multi-domain causal runtime, traceability tools, and interfaces for creating and observing worlds. The complete technical dossier is available in English in the [English publication package](english/README.md): [HTML](english/Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.html) · [Markdown](english/Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.md) · [PDF](english/Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.pdf). The package also includes the short edition, executive summary, diagrams, rights notice, and publication metadata. No engine source code, implementation recipes, internal configuration, or raw data is distributed.
 
 ## What the project contributes
 
@@ -16,7 +16,7 @@ The runtime organizes components through access and timing contracts. A static i
 
 ## English publication package
 
-The versioned package with its documents and original diagrams is in [`english/`](english/README.md).
+The [complete English dossier](english/README.md) is available in [HTML](english/Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.html), [Markdown](english/Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.md), and [PDF](english/Causal_Worlds_Engine_Public_Technical_Dossier_v1.1_EN.pdf), alongside the short edition, executive summary, translated diagrams, rights notice, and publication metadata.
 
 ## Read in English
 
