@@ -1,0 +1,77 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Portée des résultats et priorités de maturation — édition française</title><style>
+*{box-sizing:border-box}body{margin:0;background:#edf2f3;color:#20313a;font:16px/1.65 Georgia,serif}
+main{max-width:1050px;margin:36px auto;padding:44px 52px;background:#fff;box-shadow:0 12px 36px #102b3a16}
+h1,h2,h3{font-family:Arial,sans-serif;line-height:1.2;color:#12384c}h1{font-size:2.2rem}h2{margin-top:2em;border-bottom:1px solid #d9e2e6;padding-bottom:.35em}
+a{color:#12627b}table{border-collapse:collapse;width:100%;font-size:.94em}th,td{border:1px solid #d4dfe3;padding:10px;vertical-align:top}th{background:#edf4f6}
+img{max-width:100%;height:auto;display:block;margin:26px auto;border:1px solid #d9e2e6;border-radius:8px}
+@media(max-width:760px){main{margin:0;padding:24px 16px}table{font-size:.82em}th,td{padding:6px}}
+@media print{@page{margin:15mm}body{background:white;font-size:10.5pt}main{margin:0;padding:0;box-shadow:none}tr,img{break-inside:avoid}}
+</style><main><h1>Portée des résultats et priorités de maturation</h1>
+<p>Cette note complète le dossier public. Elle explique comment lire ses résultats sans réduire le projet à ses limites ni présenter des essais internes comme des validations universelles. Le moteur, ses recettes, ses configurations et ses journaux bruts restent privés.</p>
+<h2>Ce qui constitue l’apport central</h2>
+<p>Le projet réunit quatre volets qui se renforcent :</p>
+<ol>
+<li><strong>Un cadre de description</strong> — états, relations et dynamiques permettent de poser des questions comparables à des domaines différents sans leur imposer les mêmes lois ni les mêmes unités.</li>
+<li><strong>Un runtime de monde partagé</strong> — des mécanismes spécialisés peuvent lire ou transformer un état commun au cours d’une exécution ordonnée.</li>
+<li><strong>Une boucle d’enquête</strong> — événements avec provenance déclarée, points de contrôle, reprise, comparaison de branches et ablations rendent certains raccords examinables dans des scénarios définis.</li>
+<li><strong>Un portefeuille large</strong> — physique, matière, eau, chimie, corps, perception, mémoire, action, relations collectives et outils de création et d’observation sont couverts à des niveaux de maturité différents.</li>
+</ol>
+<p>La différenciation recherchée réside dans leur combinaison : composer des domaines hétérogènes dans un même monde, suivre les transferts que le système consigne, puis intervenir sur une branche pour observer si une conséquence ultérieure change. Ce programme est plus large qu’un test unique ou qu’une démonstration de longue durée. La présente note précise la portée actuelle de ses éléments les plus importants.</p>
+<h2>Comment interpréter les cinq questions ouvertes</h2>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Ce qui est déjà disponible</th>
+<th>Ce que les résultats permettent de dire</th>
+<th>Prochaine priorité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Temps et synchronisation</strong></td>
+<td>Une boucle ordonnée et un inventaire statique de 44 phases et 71 composants : 49 classés par pas de référence, 17 par temps écoulé et 5 mixtes.</td>
+<td>Les appels et leurs régimes sont recensés. Cela ne signifie pas que les cadences et unités de tous les domaines sont déjà harmonisées.</td>
+<td>Compléter les contrats temporels aux frontières de domaines et comparer les trajectoires sous des partitions temporelles différentes, en commençant par les mécanismes sensibles à <code>dt</code> et aux seuils.</td>
+</tr>
+<tr>
+<td><strong>Attribution causale</strong></td>
+<td>Provenance d’événements, points de contrôle, relecture déterministe dans des cas qualifiés, comparaisons de branches et ablations dans plusieurs campagnes.</td>
+<td>Un lien enregistré aide à retrouver la provenance déclarée. Une comparaison contrôlée peut montrer qu’un mécanisme contribue à un résultat local dans les conditions testées; le journal seul ne démontre pas une causalité complète.</td>
+<td>Étendre les interventions appariées aux raccords inter-domaines et conserver leurs observables, témoins et limites avec chaque résultat.</td>
+</tr>
+<tr>
+<td><strong>Endurance</strong></td>
+<td>Un relevé de ressources de 47,99 h, 2 873 mesures et 416 ticks nets, accompagné d’un jeu distinct de six instantanés agrégés du monde.</td>
+<td>Le processus est resté présent aux échantillons, mais aucun nouveau tick n’a été consigné durant les neuf dernières minutes. La fenêtre s’arrête environ 50 secondes avant 48 h; les instantanés ne décrivent pas la trajectoire complète des habitants.</td>
+<td>Mesurer séparément la durée du processus, l’avancement des ticks et les états du monde, avec des horodatages permettant de les aligner. Cette observation est un indicateur d’endurance matériel, pas le résultat intégrateur principal. <a href="evidence/run-record-01/RUN_RECORD.html">Relevé détaillé et graphique</a></td>
+</tr>
+<tr>
+<td><strong>Reproductibilité</strong></td>
+<td>Des milliers de contrôles ciblés et de nombreuses campagnes; certains essais de reprise et de rejeu sont déterministes sous des conditions explicites. Les lots qui se recouvrent restent distincts.</td>
+<td>Il existe une base conséquente de vérifications internes. Les comptes ne forment pas un total additif, et ils ne valent pas réplication indépendante ni validation par un tiers.</td>
+<td>Garder les protocoles, comparateurs, versions et critères liés à chaque campagne; étendre les répétitions indépendantes là où le résultat en dépend.</td>
+</tr>
+<tr>
+<td><strong>Généralisation</strong></td>
+<td>Des mécanismes couplés et des résultats observés dans un éventail de domaines et de scénarios, avec des échecs et des résultats mixtes conservés.</td>
+<td>Les résultats décrivent les conditions effectivement essayées; ils ne promettent pas qu’un modèle arbitraire s’intègre ou qu’un effet se transfère à tout monde.</td>
+<td>Élargir progressivement les scénarios et les conditions de transfert, sans confondre l’extensibilité de l’architecture avec une compatibilité automatique universelle.</td>
+</tr>
+</tbody>
+</table>
+<p>La mesure d’endurance est consultable dans son contexte, avec les séries filtrées et le relevé détaillé : <a href="evidence/run-record-01/RUN_RECORD.html">rapport public</a>, <a href="evidence/run-record-01/resource-monitor-public.csv">données du moniteur</a>, <a href="evidence/run-record-01/observed-world-output-public.csv">instantanés du monde</a>.</p>
+<p><img alt="Séries filtrées de mémoire et d’avancement des ticks du relevé de 47,99 heures." src="evidence/run-record-01/run-metrics.svg"></p>
+<h2>Ordre de travail</h2>
+<p>Les priorités ne sont pas équivalentes. Les deux premières renforcent directement la proposition technique centrale :</p>
+<ol>
+<li><strong>Contrat temporel des raccords</strong> — expliciter et qualifier ce qu’un mécanisme lit et écrit, à quelle cadence, avec quelles unités et quels effets de subdivision.</li>
+<li><strong>Causalité par intervention</strong> — relier provenance, témoin, intervention et conséquence mesurée dans les scénarios intégrés les plus représentatifs.</li>
+<li><strong>Progression en longue durée</strong> — distinguer processus actif, monde qui avance et trajectoire des entités; aligner les journaux avant d’annoncer une endurance de monde.</li>
+<li><strong>Répétitions et reproductibilité</strong> — renforcer les comparaisons appariées et les reprises sous les conditions qui comptent pour chaque résultat.</li>
+<li><strong>Transfert et généralisation</strong> — élargir les domaines et les mondes à mesure que les contrats temporels et causaux sont mieux établis.</li>
+</ol>
+<p>La mesure de 47,99 h mérite d’être conservée parce qu’elle renseigne sur la tenue du processus et l’usage mémoire. Elle ne doit ni être effacée ni prendre la place des résultats de composition, des campagnes par domaine et des comparaisons interventionnelles. De même, l’absence de validation externe borne la nature des affirmations actuelles; elle n’annule pas les essais internes, les outils de reprise ni les capacités observées.</p>
+<h2>Formulation publique recommandée</h2>
+<p>Le dossier décrit un runtime expérimental multi-domaines et une boucle d’observation et d’intervention déjà exercée dans des scénarios définis. Ses résultats internes couvrent des campagnes intégrées, des calibrations de domaine, des tests ciblés et des trajectoires longues, avec des issues favorables, mixtes et négatives. Les contrats temporels ne sont pas encore harmonisés partout, la causalité doit être étayée par des interventions propres à chaque question, l’endurance de 47,99 h n’établit pas 48 h de progression continue, et les résultats ne valent pas validation indépendante ni généralisation à tout modèle.</p>
+<p>Cette formulation montre l’étendue du travail tout en gardant chaque affirmation à la mesure de ses observations. Aucun détail d’implémentation propriétaire n’est requis pour cette distinction.</p></main></html>
