@@ -1,29 +1,25 @@
-# Préparer le dépôt Zenodo
+# Dépôt Zenodo — édition publique v1.1
 
-Les métadonnées proposées pour l’édition v1.1 sont dans `.zenodo.json`. Le
-fichier `CITATION.cff` fournit aussi une citation à GitHub. Quand les deux
-fichiers sont présents, Zenodo indique qu’il utilise `.zenodo.json` pour
-l’archivage GitHub et ignore `CITATION.cff`; GitHub peut néanmoins afficher la
-citation CFF.
+Le dossier public est publié sur GitHub :
+[Gaaboy/moteur-mondes-causaux](https://github.com/Gaaboy/moteur-mondes-causaux).
+Le moteur, son code source et ses recettes restent privés. Le dépôt ne contient
+que le dossier public et ses pièces justificatives filtrées.
 
-## Avant le dépôt
+Les métadonnées de dépôt sont préparées dans `.zenodo.json`; la référence
+bibliographique est dans `CITATION.cff`. Le créateur public est **Gaaboy**.
 
-- Relire le nom d’auteur affiché (`Ghaïs`) et les métadonnées du dépôt.
-- Vérifier que le contenu à archiver correspond au tag Git local `v1.1`.
-- Garder le dépôt privé tant que la publication n’est pas décidée.
-- Ne pas sélectionner de licence open source : cette documentation est tous
-  droits réservés.
-- Pour une mise en ligne publique sur Zenodo, choisir explicitement les droits
-  d’accès et les conditions de réutilisation au moment de créer le dépôt.
+## Finaliser le dépôt
 
-## Limite de l’intégration GitHub
+1. Créer un brouillon Zenodo de type **Publication / Report**. Vérifier le
+   titre, la version **1.1**, le créateur **Gaaboy**, le résumé et les mots-clés
+   proposés par `.zenodo.json`.
+2. Réserver le DOI dans le brouillon avant de fabriquer le fichier final.
+3. Reporter le DOI dans la page « À propos et contact » et `CITATION.cff`,
+   reconstruire le PDF et le paquet, puis téléverser le paquet final.
+4. Choisir l’accès public aux fichiers et une mention de droits réservés; ne
+   pas appliquer de licence open source au moteur ou à ses recettes.
+5. Vérifier l’aperçu public, les fichiers téléversés, les droits et le DOI avant
+   de publier l’enregistrement.
 
-L’intégration GitHub de Zenodo ne peut pas archiver un dépôt privé. Elle ne
-doit donc pas être activée en attendant de rendre le dépôt accessible. Une fois
-le dépôt public, l’archivage automatique peut suivre un release GitHub. Sinon,
-les mêmes fichiers peuvent être déposés manuellement dans Zenodo depuis le
-compte du titulaire.
-
-Aucun dépôt Zenodo, DOI ou release hébergé n’a été créé par cette préparation.
-Le DOI est attribué par Zenodo lors de la publication de l’enregistrement;
-laisser ce champ absent jusque-là.
+Le lien `/me/uploads` mène au tableau de bord connecté; le DOI ou la page
+publique de l’enregistrement sera le lien à partager après publication.
