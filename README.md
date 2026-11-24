@@ -33,7 +33,7 @@ La portée actuelle reste celle des mécanismes et scénarios intégrés et qual
 - [Page d’accueil visuelle](index.html)
 - `figures/` — schémas explicatifs du cadre et de ses boucles.
 
-La version courte et la page d’accueil sont disponibles en français et en anglais. Le dossier technique complet est actuellement en français; le résumé exécutif anglais en synthétise les principaux points. Les éditions Markdown, HTML et PDF v1.1 sont à jour.
+Le dossier technique complet existe en français et en anglais : le paquet anglais est disponible dans [`english/`](english/README.md), avec Markdown et HTML, les schémas et les métadonnées. La version courte et le résumé exécutif anglais restent aussi disponibles. Les éditions v1.1 sont à jour.
 
 Les PDF conservés dans `archive/v1.0/` appartiennent à l’édition précédente. Le PDF de cette édition v1.1 est disponible ci-dessus et correspond au Markdown et au HTML complets.
 
