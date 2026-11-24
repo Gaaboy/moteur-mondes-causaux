@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="780" viewBox="0 0 1320 780" role="img" aria-labelledby="title desc">
+  <title id="title">Chaîne intégratrice de Projet de mondes interactifs et limites de démonstration</title>
+  <desc id="desc">Une chaîne conceptuelle relie ressources, digestion, chimie, physiologie, perception et action, puis échanges avec l'environnement. Les statuts sont locaux et plusieurs frontières restent conditionnelles.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#287c83"/>
+    </marker>
+    <style>
+      .bg { fill: #f7f9fb; }
+      .title { font: 700 29px Arial, sans-serif; fill: #17324d; }
+      .head { font: 700 16px Arial, sans-serif; fill: #17324d; }
+      .body { font: 14px Arial, sans-serif; fill: #395268; }
+      .status { font: 700 12px Arial, sans-serif; fill: #49645e; }
+      .box { fill: #fff; stroke: #b6c8d6; stroke-width: 2; rx: 13; }
+      .conditional { fill: #fff7e8; stroke: #d8b46b; stroke-width: 2; rx: 13; }
+      .arrow { fill: none; stroke: #287c83; stroke-width: 3; marker-end: url(#arrow); }
+      .back { fill: none; stroke: #52709a; stroke-width: 3; stroke-dasharray: 9 7; marker-end: url(#arrow); }
+      .note { font: 14px Arial, sans-serif; fill: #53687a; }
+    </style>
+  </defs>
+  <rect class="bg" width="1320" height="780"/>
+  <text class="title" x="45" y="52">Une chaîne à qualifier, pas une boucle déjà fermée</text>
+  <text class="note" x="45" y="82">Schéma de synthèse; les résultats observés concernent les scénarios décrits dans le texte.</text>
+
+  <rect class="box" x="45" y="150" width="185" height="145"/>
+  <text class="head" x="65" y="184">Ressources</text>
+  <text class="body" x="65" y="216">accès · prélèvement</text>
+  <text class="body" x="65" y="241">stocks et transferts</text>
+  <text class="status" x="65" y="273">TESTS LOCAUX</text>
+
+  <path class="arrow" d="M230 222 H260"/>
+  <rect class="box" x="270" y="150" width="185" height="145"/>
+  <text class="head" x="290" y="184">Repas</text>
+  <text class="body" x="290" y="216">ingestion · digestion</text>
+  <text class="body" x="290" y="241">substrats chimiques</text>
+  <text class="status" x="290" y="273">PONT TESTÉ</text>
+
+  <path class="arrow" d="M455 222 H485"/>
+  <rect class="box" x="495" y="150" width="185" height="145"/>
+  <text class="head" x="515" y="184">Chimie</text>
+  <text class="body" x="515" y="216">réactions · gaz</text>
+  <text class="body" x="515" y="241">ATP théorique</text>
+  <text class="status" x="515" y="273">BILANS LOCAUX</text>
+
+  <path class="arrow" d="M680 222 H710"/>
+  <rect class="conditional" x="720" y="150" width="185" height="145"/>
+  <text class="head" x="740" y="184">Physiologie</text>
+  <text class="body" x="740" y="216">gaz → estimation</text>
+  <text class="body" x="740" y="241">disponibilité à établir</text>
+  <text class="status" x="740" y="273">COUPLAGE BORNÉ</text>
+
+  <path class="arrow" d="M905 222 H935"/>
+  <rect class="conditional" x="945" y="150" width="185" height="145"/>
+  <text class="head" x="965" y="184">Comportement</text>
+  <text class="body" x="965" y="216">perception · mémoire</text>
+  <text class="body" x="965" y="241">décision · action</text>
+  <text class="status" x="965" y="273">EFFETS DE SCÉNARIO</text>
+
+  <path class="arrow" d="M1130 222 H1160"/>
+  <rect class="conditional" x="1170" y="150" width="130" height="145"/>
+  <text class="head" x="1185" y="184">Milieu</text>
+  <text class="body" x="1185" y="216">mouvement</text>
+  <text class="body" x="1185" y="241">chaleur</text>
+  <text class="status" x="1185" y="273">CONFIGURÉ</text>
+
+  <path class="back" d="M1234 295 V410 H140 V300"/>
+  <text class="note" x="435" y="402">Rétroaction vers l’environnement : dépend des transferts et paramètres explicites.</text>
+
+  <rect x="70" y="475" width="1180" height="88" fill="#e7f3f2" stroke="#287c83" stroke-width="2" rx="14"/>
+  <text class="head" x="100" y="510">Ce que les interventions permettent d’établir</text>
+  <text class="body" x="100" y="540">Comparer témoin et ablation depuis un état commun; suivre l’observable choisi; préserver protocole et échecs.</text>
+
+  <rect x="70" y="600" width="1180" height="105" fill="#fff7e8" stroke="#d8b46b" stroke-width="2" rx="14"/>
+  <text class="head" x="100" y="637">Frontières scientifiques restantes</text>
+  <text class="body" x="100" y="668">ATP théorique ≠ ATP disponible · dépense estimée ≠ travail mécanique · chaleur supposée ≠ calorimétrie</text>
+  <text class="body" x="100" y="691">Un lien logiciel conservatif ne suffit pas à valider un budget physique complet.</text>
+</svg>
