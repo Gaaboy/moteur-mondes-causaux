@@ -1,21 +1,21 @@
 {
-  "title": "Interactive Worlds — public technical dossier (English short edition)",
+  "title": "Causal Worlds Engine — public technical dossier (English edition)",
   "upload_type": "publication",
   "publication_type": "report",
   "publication_date": "2026-11-24",
   "version": "1.1-en",
-  "description": "English short edition and executive summary presenting the high-level architecture, product direction, selected internal results, and observed limitations of a proprietary causal-world runtime project. The complete technical dossier is currently available in French; this is not a full English translation. No engine source code, implementation recipes, configurations, or raw data are included.",
+  "description": "Full English translation of the public technical dossier, with a short edition and executive summary, presenting the architecture, product direction, selected internal results, and observed limitations of a proprietary causal-world runtime project. No engine source code, implementation recipes, internal configurations, or raw data are included.",
   "creators": [
     {
       "name": "Gaaboy"
     }
   ],
   "keywords": [
+    "causal worlds",
     "interactive worlds",
     "simulation",
     "complex systems",
-    "causal modeling",
-    "proprietary software"
+    "causal modeling"
   ],
   "language": "eng",
   "notes": "Copyright 2026 Gaaboy. All rights reserved. Public documentation only. No open-source license is granted."
