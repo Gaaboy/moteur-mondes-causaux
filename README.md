@@ -23,6 +23,7 @@ La portée actuelle reste celle des mécanismes et scénarios intégrés et qual
 ## Lire le dossier
 
 - **Commencer ici :** [présentation courte en français](Presentation_mondes_interactifs_lite_v1.1.html) · [Markdown](Presentation_mondes_interactifs_lite_v1.1.md)
+- [Édition anglaise (paquet)](english/README.md)
 - [Short edition in English](Interactive_Worlds_short_edition_v1.1.html) · [Markdown](Interactive_Worlds_short_edition_v1.1.md)
 - [English executive summary](Executive_summary_EN.html) · [Markdown](Executive_summary_EN.md)
 - [English landing page](index_en.html)
