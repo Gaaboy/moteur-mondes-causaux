@@ -4,6 +4,7 @@
   "publication_type": "report",
   "publication_date": "2026-11-24",
   "version": "1.1-en",
+  "doi": "10.5281/zenodo.24513602",
   "description": "Full English translation of the public technical dossier, with a short edition and executive summary, presenting the architecture, product direction, selected internal results, and observed limitations of a proprietary causal-world runtime project. No engine source code, implementation recipes, internal configurations, or raw data are included.",
   "creators": [
     {
