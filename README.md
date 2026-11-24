@@ -1,6 +1,6 @@
 # Moteur de mondes causaux — dossier technique public
 
-[Read this repository overview in English](README_EN.md).
+[English edition — separate repository](https://github.com/Gaaboy/causal-worlds-engine-public).
 
 Documentation publique d’un projet propriétaire de mondes interactifs (**v1.1 — 24 novembre 2026**).
 
@@ -23,17 +23,14 @@ La portée actuelle reste celle des mécanismes et scénarios intégrés et qual
 ## Lire le dossier
 
 - **Commencer ici :** [présentation courte en français](Presentation_mondes_interactifs_lite_v1.1.html) · [Markdown](Presentation_mondes_interactifs_lite_v1.1.md)
-- [Édition anglaise (paquet)](english/README.md)
-- [Short edition in English](Interactive_Worlds_short_edition_v1.1.html) · [Markdown](Interactive_Worlds_short_edition_v1.1.md)
-- [English executive summary](Executive_summary_EN.html) · [Markdown](Executive_summary_EN.md)
-- [English landing page](index_en.html)
+- [Édition anglaise complète — dépôt séparé](https://github.com/Gaaboy/causal-worlds-engine-public)
 - [Dossier technique complet](Presentation_mondes_interactifs_v1.1.md)
 - [Dossier complet en HTML](Presentation_mondes_interactifs_v1.1.html)
 - [Télécharger le dossier complet en PDF](Presentation_mondes_interactifs_v1.1.pdf)
 - [Page d’accueil visuelle](index.html)
 - `figures/` — schémas explicatifs du cadre et de ses boucles.
 
-Le dossier technique complet existe en français et en anglais : le paquet anglais est disponible dans [`english/`](english/README.md), avec Markdown et HTML, les schémas et les métadonnées. La version courte et le résumé exécutif anglais restent aussi disponibles. Les éditions v1.1 sont à jour.
+Le dossier technique complet en anglais est publié séparément dans [son propre dépôt GitHub](https://github.com/Gaaboy/causal-worlds-engine-public). Les éditions française et anglaise sont ainsi maintenues dans deux dépôts distincts.
 
 Les PDF conservés dans `archive/v1.0/` appartiennent à l’édition précédente. Le PDF de cette édition v1.1 est disponible ci-dessus et correspond au Markdown et au HTML complets.
 
