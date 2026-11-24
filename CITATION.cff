@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Pour citer cette édition du dossier technique, utilisez la référence ci-dessous."
+title: "Moteur de mondes causaux — dossier technique public"
+type: report
+version: "1.1"
+date-released: 2026-11-24
+authors:
+  - name: "Gaaboy"
+abstract: >-
+  Dossier technique public présentant l’architecture générale, les domaines
+  couplés, les campagnes d’essais, les mesures observées et les limites d’un
+  projet propriétaire de moteur de mondes causaux. Le moteur, son code source,
+  ses recettes d’implémentation, ses configurations et ses données brutes ne
+  sont pas inclus.
+keywords:
+  - simulation
+  - systèmes complexes
+  - modélisation multi-domaines
+  - runtime causal
+  - dossier technique

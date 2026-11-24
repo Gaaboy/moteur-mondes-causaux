@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Vue conceptuelle de l'architecture Projet de mondes interactifs</title>
+  <desc id="desc">Un scénario alimente un monde canonique partagé, dont les systèmes produisent des transitions observables et des événements. Les expériences interviennent sur le monde et comparent des branches rejouables.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1 L11 6 L1 11 Z" fill="#287c83"/>
+    </marker>
+    <style>
+      .bg { fill: #f7f9fb; }
+      .title { font: 700 30px Arial, sans-serif; fill: #17324d; }
+      .sub { font: 16px Arial, sans-serif; fill: #516476; }
+      .label { font: 700 18px Arial, sans-serif; fill: #17324d; }
+      .small { font: 15px Arial, sans-serif; fill: #395268; }
+      .note { font: 14px Arial, sans-serif; fill: #53687a; }
+      .box { fill: #fff; stroke: #b6c8d6; stroke-width: 2; rx: 14; }
+      .core { fill: #e7f3f2; stroke: #287c83; stroke-width: 3; rx: 18; }
+      .evidence { fill: #edf1f8; stroke: #52709a; stroke-width: 2; rx: 14; }
+      .arrow { fill: none; stroke: #287c83; stroke-width: 3; marker-end: url(#arrow); }
+      .dashed { stroke-dasharray: 8 7; }
+    </style>
+  </defs>
+  <rect class="bg" width="1280" height="720"/>
+  <text class="title" x="48" y="58">Projet de mondes interactifs — monde causal partagé</text>
+  <text class="sub" x="48" y="88">Schéma conceptuel : les modules et raccords représentés ne sont pas tous activés dans chaque scénario.</text>
+
+  <rect class="box" x="50" y="145" width="230" height="128"/>
+  <text class="label" x="75" y="183">Scénario</text>
+  <text class="small" x="75" y="213">états initiaux · profils</text>
+  <text class="small" x="75" y="239">conditions de scénario</text>
+
+  <path class="arrow" d="M280 209 H350"/>
+  <rect class="core" x="365" y="125" width="535" height="168"/>
+  <text class="label" x="395" y="166">CausalWorld · état canonique</text>
+  <text class="small" x="395" y="199">Identités · états φ · relations λ · transitions χ</text>
+  <text class="small" x="395" y="227">Ordonnanceur global · unités et contrats déclarés</text>
+  <text class="small" x="395" y="255">Activation conditionnée par le scénario et la configuration</text>
+
+  <path class="arrow" d="M900 209 H972"/>
+  <rect class="box" x="990" y="145" width="240" height="128"/>
+  <text class="label" x="1015" y="183">Observables</text>
+  <text class="small" x="1015" y="213">états · mesures · événements</text>
+  <text class="small" x="1015" y="239">provenance déclarée</text>
+
+  <path class="arrow" d="M632 293 V356"/>
+  <rect class="box" x="95" y="375" width="330" height="150"/>
+  <text class="label" x="120" y="414">Systèmes producteurs</text>
+  <text class="small" x="120" y="447">matière · environnement · chimie</text>
+  <text class="small" x="120" y="475">corps · perception · décision · société</text>
+  <text class="small" x="120" y="503">produisent des états et des événements</text>
+
+  <rect class="box" x="475" y="375" width="330" height="150"/>
+  <text class="label" x="500" y="414">Relations testables</text>
+  <text class="small" x="500" y="447">transferts · contraintes · accès</text>
+  <text class="small" x="500" y="475">unités · sources · consommateurs</text>
+  <text class="small" x="500" y="503">garde-fous et observables choisis</text>
+
+  <rect class="evidence" x="855" y="375" width="330" height="150"/>
+  <text class="label" x="880" y="414">Expériences</text>
+  <text class="small" x="880" y="447">sauvegarde · témoin · intervention</text>
+  <text class="small" x="880" y="475">rejeu · ablation · comparaison</text>
+  <text class="small" x="880" y="503">résultats bornés au protocole</text>
+
+  <path class="arrow dashed" d="M260 375 V325 H470 V293"/>
+  <path class="arrow" d="M425 450 H475"/>
+  <path class="arrow" d="M805 450 H855"/>
+  <path class="arrow dashed" d="M1020 375 V325 H795 V293"/>
+
+  <rect x="95" y="575" width="1090" height="78" fill="#fff7e8" stroke="#d8b46b" stroke-width="2" rx="12"/>
+  <text class="small" x="120" y="608">Lecture : un état partagé facilite les raccords; leur présence ne garantit ni leur activation ni leur portée dans le monde réel.</text>
+  <text class="note" x="120" y="634">Les flèches représentent des parcours possibles, pas un graphe exhaustif d’exécution ni un résultat expérimental.</text>
+</svg>

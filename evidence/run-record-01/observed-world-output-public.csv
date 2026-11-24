@@ -1,0 +1,7 @@
+world_tick,resident_count,residents_alive,decision_events,body_state_updates,group_phase_recorded
+1,4,4,4,4,True
+809,4,4,2,4,True
+900,4,4,1,4,True
+1000,4,4,0,4,True
+1225,4,4,0,4,True
+1274,4,4,1,4,True
