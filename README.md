@@ -1,4 +1,4 @@
-# Moteur de mondes causaux — dossier technique public
+# Moteur de mondes causaux : composer des systèmes complexes dans une boucle commune
 
 [English edition — separate repository](https://github.com/Gaaboy/causal-worlds-engine-public).
 
@@ -47,7 +47,7 @@ Le projet ne se résume pas à cette mesure d’endurance. Le dossier décrit le
 
 La note [Portée des résultats et priorités de maturation](RESULTS_SCOPE_AND_PRIORITIES.md) synthétise les cinq frontières de lecture — temps, attribution causale, endurance, reproductibilité et généralisation — et les ordonne selon leur lien avec la proposition centrale. Elles encadrent les affirmations; elles ne remplacent pas la description des mécanismes, des campagnes et des fonctions produit.
 
-Une campagne intégrée d’environ deux heures a atteint près de **3,8 Go de mémoire vive** et dépassé **un million d’événements** dans la branche la plus instrumentée. Ces chiffres décrivent ce scénario et sa journalisation, pas un plafond de capacité. Un autre relevé d’endurance couvre **47,99 heures**, avec **2 873 mesures** : le tick est passé de **809 à 1 225** (**416 ticks nets**) sous surveillance, et la mémoire résidente a varié de **0,87 à 1,32 Gio**. La mémoire privée a atteint **1,77 Gio**. Le processus était signalé actif à tous les échantillons, mais aucun tick n’a avancé durant les **9 dernières minutes** de la fenêtre mesurée. La trace distincte contient des instantanés agrégés jusqu’au tick **1 274**, sans horodatage permettant de les aligner sur le moniteur. La fenêtre surveillée s’arrête environ **50 secondes avant 48 heures** : elle s’en approche, sans franchir formellement ce seuil. Ce n’est pas un audit tiers.
+Les relevés détaillés d’exécution, de ressources et leurs limites sont présentés dans le rapport de campagne ci-dessous.
 
 - [Lire le relevé HTML](evidence/run-record-01/RUN_RECORD.html)
 - [Lire le rapport Markdown](evidence/run-record-01/RUN_RECORD.md)
