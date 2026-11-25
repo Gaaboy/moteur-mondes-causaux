@@ -65,10 +65,7 @@ Les campagnes de tests qui se recouvrent ne sont pas additionnées en un total g
 
 © 2026 — Tous droits réservés. Documentation publique fournie à titre informatif. Aucune licence open source n’est accordée sur le moteur, son code source ou ses recettes d’implémentation.
 
-## Citer et archiver
+## Archive et citation
 
-Les métadonnées de citation sont préparées dans [`CITATION.cff`](CITATION.cff)
-et [`.zenodo.json`](.zenodo.json). Les consignes pour préparer un dépôt Zenodo
-se trouvent dans [`ZENODO_RELEASE_CHECKLIST.md`](ZENODO_RELEASE_CHECKLIST.md).
-DOI conceptuel de l’archive française (toutes versions) : https://doi.org/10.5281/zenodo.24512314
+Édition française : [Zenodo v1.1.4](https://doi.org/10.5281/zenodo.24538024) · DOI conceptuel (toutes versions) : https://doi.org/10.5281/zenodo.24512314.
 
