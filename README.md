@@ -45,7 +45,7 @@ Le dossier décrit la répartition des cadences, les trois mécanismes qui reço
 
 Le dossier décrit les mécanismes, les campagnes intégrées, les calibrations de domaine, les résultats négatifs et les outils de création et d’observation. Il rapporte notamment une boucle mémoire–trajet–irrigation reproduite dans plusieurs initialisations, des comparaisons de branches collectives, des vérifications ciblées de physique, d’hydrologie, de locomotion, d’optique et de coordination, ainsi qu’un post-mortem de subsistance.
 
-La note [Portée des résultats et priorités de maturation](RESULTS_SCOPE_AND_PRIORITIES.md) synthétise les cinq frontières de lecture — temps, attribution causale, endurance, reproductibilité et généralisation — et les ordonne selon leur lien avec la proposition centrale. Elles encadrent les affirmations; elles ne remplacent pas la description des mécanismes, des campagnes et des fonctions produit.
+La note [Portée des résultats et priorités de maturation](RESULTS_SCOPE_AND_PRIORITIES.md) présente les limites et priorités de maturation du projet. Elles encadrent les affirmations; elles ne remplacent pas la description des mécanismes, des campagnes et des fonctions produit.
 
 Les relevés détaillés d’exécution, de ressources et leurs limites sont présentés dans le rapport de campagne ci-dessous.
 
